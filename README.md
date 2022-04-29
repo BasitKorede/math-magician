@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# MATH MAGICIAN
 
-> A basic hello microverse project to test our knowledege on the use of linters.
+> A basic react project to build a mathematical calculator.
 
 ## Built With
 
