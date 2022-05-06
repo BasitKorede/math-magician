@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import './App.css';
-import React, { Element } from 'react';
+import React, { Components } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -62,15 +62,9 @@ function App() {
             </nav>
           </div>
           <Routes>
-            <Route path="/calculator">
-              <Calculator />
-            </Route>
-            <Route path="/quotes">
-              <Quotes />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
+          <Route path="/" element={<Home />} />
+        <Route path="calculator" element={<Calculator />} />
+        <Route path="quote" element={<Quotes />} />
           </Routes>
         </div>
       </Router>
@@ -78,7 +72,7 @@ function App() {
         <div>
           <p>
             Designed by
-            <a style={styles[3]} target="_blank" href="https://github.com/rotimiazeez" rel="noreferrer"> Harzeyzh Rotimi</a>
+            <a style={styles[3]} target="_blank" href="https://github.com/rotimiazeez" rel="noreferrer">BAsit Korede</a>
           </p>
         </div>
       </footer>
